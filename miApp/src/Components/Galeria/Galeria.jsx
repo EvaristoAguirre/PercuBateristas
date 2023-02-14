@@ -12,7 +12,9 @@ const Galeria = () => {
                     <h1>Resolver carrusell</h1>
 
                 </div>
+            
             </div>
+
         </>
     )
 }
