@@ -1,0 +1,18 @@
+.contacto-tarjeta_B{
+    width: auto;
+    height: 500px;
+}
+
+.tarjeta_B-redes{
+    width: 80%;
+    height: 300px;
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.bnt-face{
+    color: black;
+    width: 10px;
+    height: 10px;
+}

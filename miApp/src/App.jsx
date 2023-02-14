@@ -1,4 +1,5 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { About } from './Components/About/About'
 import { Contacto } from './Components/Contacto/Contacto'
 import { Footer } from './Components/Footer/Footer'
