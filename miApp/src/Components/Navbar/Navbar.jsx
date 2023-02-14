@@ -1,28 +1,29 @@
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
     return(
         <nav>
-            <div class="logo">
+            <div className="nav-logo">
                 <h1>PERCUBATERISTASONLINE</h1>
             </div>
-            <ul class="nav-lista">
+            <ul className="nav-lista">
                 <li><a href="#header">Home</a></li>
-                <li><a href="#seccion-2">About us</a></li>
+                <li><a href="#seccion-2">Nosotrxs</a></li>
                 <li><a href="#seccion-3">Perculoops</a></li>
                 <li><a href="#seccion-4">Imágenes</a></li>
                 <li><a href="#seccion-5">Sesionista</a></li>
                 <li><a href="#seccion-6">Contacto</a></li>
             </ul>
-            
-           <div class="nav-redes">
-                <div class="btn-hamburguesa"><i class="fa-solid fa-bars"></i></div>
-                <a href="https://www.facebook.com/evaristo.aguirre.1/"><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://github.com/EvaristoAguirre" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+           <div className="nav-redes">
+                <div className="btn-hamburguesa"></div>
+                <a href="#">Facebook</a>
+                <a href="#">Ig</a>
+                <a href='#'>YouTube</a>
            </div>
 
-           <div>Login</div>
+           {/* <div>Login</div> */}
 
         </nav>
     )

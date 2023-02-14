@@ -1,25 +1,21 @@
 import React from 'react';
 
+
 const Hero = () => {
     return(
         <>
-         <div class="hero-caja-texto">
-        <div class="texto-hero">
-            <h2>PercuBateristasOnLine</h2>
-            
-            <div class="btns-hero">
-                <button class="btn-hero">Mirá mis trabajos</button>
-                <div class="link-hero">
-                    <a href="#"><p>Contactame</p></a>
-                    <i class="fas fa-arrow-circle-down"></i>    
-                </div>
+         <div className='hero'>
+            <div className='hero-texto'>
+                <h1>Lorem ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non voluptate iste quas sit odio nam aut, qui nulla ut eaque sint autem quaerat dicta soluta maxime repellendus, ipsum modi atque?
+                </p>
+                <button>Nosotrxs</button>
             </div>
-        </div>
-        <div class="imagen-hero">
-            <h4>Imagen</h4>
-        </div>
-    </div>
-    <div class="hero-flecha"><i class="fa-solid fa-arrow-down"></i></div>
+            <div className='hero-imagen'>
+                <img src="../../assets/Imagenes/hero-muestra.jpg" alt="hero-muestra" />
+            </div>
+         </div>
+         
         </>
        
     )

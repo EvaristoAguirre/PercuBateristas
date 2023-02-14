@@ -19,7 +19,7 @@ function App() {
       <Perculoops />
       <Galeria />
       <Sesionista />
-      <Sesionista />
+      <Contacto />
       <Footer />
     </div>
   )
