@@ -1,0 +1,38 @@
+.navbar{
+    background-color: var(--color-secundario-0);
+    height: 10vh;
+}
+
+.navbar-contenedor {
+    width: 80%;
+    font-family: var(--tipografia-principal);
+}
+
+.nav-logo-texto{
+    font-size: 2rem;
+}
+.nav-lista {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 0;
+}
+
+.nav-lista a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: var(--color-neutro-darkness);
+}
+
+.nav-lista li {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.bi {
+    color: var(--color-neutro-darkness);
+    margin-left: 0.5rem;
+}
+

@@ -3,9 +3,15 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #b9b5b5;
+  --tipografia-principal: 'League Gothic';
+  --tipografia-secundaria: 'montserrat';
+  --color-primario-A: #a53d31;
+  --color-primario-B: #85bfc3;
+  --color-primario-C: #f6b86f;
+  --color-secundario-0: #fef5d7;
+  --color-neutro-darkness: #000411;
+  --color-neutro-inter: #5b5b5b;
+  --color-neutro-lightness: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,4 +19,5 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Perculoops.css';
 
 const Perculoops = () => {
     return(
@@ -7,7 +8,9 @@ const Perculoops = () => {
         <div className='perculoops'>
             
             <div className='perculoops-indice'>
-                <h2>Perculoops</h2>
+                <div className='perculoops-indice-semiCirculo'>
+                    <h2>Perculoops</h2>
+                </div>
             </div>
             <div className='perculoops-reproductor'>
                 <h4>Nombre de canción</h4>

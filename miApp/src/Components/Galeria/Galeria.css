@@ -1,5 +1,5 @@
-.perculoops {
-    background-image:url(../../public/perculoops-fondo-banner.svg);
+.galeria {
+    background-image:url(../../public/galeria-fondo-banner.svg);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -8,19 +8,19 @@
     align-items: center;
 }
 
-.perculoops-indice {
+.galeria-indice {
     width: 80%;
     display: flex;
     flex-direction: column;
 }
 
-.perculoops-indice-semiCirculo {
+.galeria-indice-semiCirculo {
     width: 10rem;
     height: 5rem;
-    background-color: var(--color-primario-C);
+    background-color: var(--color-neutro-darkness);
     clip-path: circle(50% at 50% 0);
     text-align: center;
-    align-self:flex-start;
-    color: var(--color-neutro-darkness);
+    align-self:flex-end;
+    color: var(--color-neutro-lightness);
     font-family: var(--tipografia-principal);
 }

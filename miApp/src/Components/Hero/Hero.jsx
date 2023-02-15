@@ -1,19 +1,26 @@
 import React from 'react';
+import './Hero.css'
 
 
 const Hero = () => {
     return(
         <>
          <div className='hero'>
-            <div className='hero-texto'>
-                <h1>Lorem ipsum dolor.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non voluptate iste quas sit odio nam aut, qui nulla ut eaque sint autem quaerat dicta soluta maxime repellendus, ipsum modi atque?
-                </p>
-                <button>Nosotrxs</button>
+            <div className='container container-hero'>
+               <div className='hero-texto'>
+                    <div className='hero-texto-mov'>
+                       <p>Queremos ayudarte a encontrar el ritmo vital de la música a través de la percusión.
+                        </p>
+                    </div>
+                    
+                    <button className='hero-btn'>Nosotrxs</button> 
+                </div>
+
+                <div className='hero-imagen'>
+                <img src="../../public/hero-muestra.jpg" alt="hero-muestra" />
+                </div> 
             </div>
-            <div className='hero-imagen'>
-                <img src="../../assets/Imagenes/hero-muestra.jpg" alt="hero-muestra" />
-            </div>
+            
          </div>
          
         </>

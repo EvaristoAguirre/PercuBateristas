@@ -1,0 +1,50 @@
+.nosotrxs {
+    background-image:url(../../public/nosotrxs-fondo-banner.svg);
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.nosotrxs-tarjeta {
+    width: 60%;
+    background-color: var(--color-secundario-0);
+    padding: 1rem;
+    border-radius: .75rem;
+    display: flex;
+    text-align:justify;
+    align-self: center;
+    justify-content: center;
+}
+.nosotrxs-tarjeta p {
+    width: 100%;
+    font-family: var(--tipografia-secundaria);
+    font-size: 1.2rem;
+    text-justify:distribute-all-lines;
+    line-height: 1.5;
+}
+
+.nosotrxs-indice {
+    width: 80%;
+    display: flex;
+    /* align-items: flex-start;
+    justify-items: flex-start; */
+    
+
+}
+
+.nosotrxs-indice h2 {
+    font-size: 1.5rem;
+    font-family: var(--tipografia-principal);
+    padding-top: .5rem;
+}
+
+.nosotrxs-indice-semiCirculo {
+    width: 10rem;
+    height: 5rem;
+    background-color: var(--color-primario-A);
+    clip-path: circle(50% at 50% 0);
+    text-align: center;
+    align-self:flex-start
+}

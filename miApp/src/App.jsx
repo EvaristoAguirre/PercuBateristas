@@ -17,8 +17,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Perculoops />
       <Galeria />
+      <Perculoops />
       <Sesionista />
       <Contacto />
       <Footer />
