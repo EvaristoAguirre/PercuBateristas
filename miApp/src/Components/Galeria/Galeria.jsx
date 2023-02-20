@@ -4,7 +4,7 @@ import './Galeria.css';
 const Galeria = () => {
     return(
         <>
-            <div className="galeria">
+            <div id="seccion-galeria" className="galeria">
                 <div className='galeria-indice'>
                     <div className='galeria-indice-semiCirculo'>
                         <h2>Galería</h2>
@@ -13,28 +13,54 @@ const Galeria = () => {
 
                 <div className='galeria-carrusell'>
 
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="" class="d-block w-100" alt=" "></img>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="" class="d-block w-100" alt=" "></img>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="" class="d-block w-100" alt=" "></img>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                     </div>
+                <div id="carouselExampleControls" className="carousel-products slide" data-bs-ride="carousel">
+                        <div className="cards-wrapper">
 
+                            <div className="carousel__container">
+                                <div id="item-producto" className="carousel__item">
+                                    <img className="carousel__item__img" src="/hero-muestra.jpg" alt=""/>
+                                    <div className="carousel__item__details">
+                                        <div>
+                                            <p className="carousel__item__details__title" text="Nombre">Foto 1</p>
+                                            <p className="carousel__item__details__subtitle" text="Descripcion">Tocando en el recital de Carnaval 2021</p>
+                                            <a className="a-vermas" href="">Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="item-producto" className="carousel__item">
+                                    <img className="carousel__item__img" src="/muestra_A.jpg" alt=""/>
+                                    <div className="carousel__item__details">
+                                        <div>
+                                            <p className="carousel__item__details__title" text="Nombre"></p>
+                                            <p className="carousel__item__details__subtitle" text="Descripcion"></p>
+                                            <a className="a-vermas" href="">Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="item-producto" className="carousel__item">
+                                    <img className="carousel__item__img" src="/muestra_B.jpg" alt=""/>
+                                    <div className="carousel__item__details">
+                                        <div>
+                                            <p className="carousel__item__details__title" text="Nombre"></p>
+                                            <p className="carousel__item__details__subtitle" text="Descripcion">Hola Mundo</p>
+                                            <a className="a-vermas" href="">Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="item-producto" className="carousel__item">
+                                    <img className="carousel__item__img" src="/muestra_A.jpg" alt=""/>
+                                    <div className="carousel__item__details">
+                                        <div>
+                                            <p className="carousel__item__details__title" text="Nombre"></p>
+                                            <p className="carousel__item__details__subtitle" text="Descripcion"></p>
+                                            <a className="a-vermas" href="">Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 
             </div>

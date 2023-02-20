@@ -1,19 +1,17 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
     return(
-        <footer className="footer-modificador-color">
+        <footer className="footer">
             <div className="footer-logos">
-                <div className="footer-logos-CL">
+                <div className="footer-logo">
+                    <hr />
                     <h3>PercuBateristasOnLine</h3>
-                    <h3>Copyleft CC-BY-SA @2022</h3>
-                    <i class="fa-brands fa-creative-commons"></i>
-                    <i class="fa-brands fa-creative-commons-by"></i>
-                    <i class="fa-brands fa-creative-commons-sa"></i> 
-
+                    <hr />
                 </div>
                 <div className="footer-autoria">
-                    <h3>Diseñado por Eva y Juli</h3>
+                    <h3>2023 PERCUBATERISTASONLINE | Todos los derechos reservados</h3>
                 </div>
             </div>
         </footer>

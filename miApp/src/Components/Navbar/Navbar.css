@@ -1,6 +1,6 @@
 .navbar{
     background-color: var(--color-secundario-0);
-    height: 10vh;
+    height: 11vh;
 }
 
 .navbar-contenedor {
@@ -28,11 +28,13 @@
 .nav-lista li {
     text-decoration: none;
     list-style: none;
+    font-size: 1.5rem;
     
 }
 
 .bi {
     color: var(--color-neutro-darkness);
-    margin-left: 0.5rem;
+    margin-left: 0.75rem;
+    
 }
 

@@ -1,5 +1,5 @@
 .perculoops {
-    background-image:url(../../public/perculoops-fondo-banner.svg);
+    background-image:url(/perculoops-fondo-banner.svg);
     height: 100vh;
     width: 100%;
     display: flex;

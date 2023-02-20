@@ -5,7 +5,7 @@ const Perculoops = () => {
     return(
         
         <>
-        <div className='perculoops'>
+        <div id="seccion-perculoops" className='perculoops'>
             
             <div className='perculoops-indice'>
                 <div className='perculoops-indice-semiCirculo'>

@@ -5,7 +5,7 @@ import './Hero.css'
 const Hero = () => {
     return(
         <>
-         <div className='hero'>
+         <div id="seccion-hero" className='hero'>
             <div className='container container-hero'>
                <div className='hero-texto'>
                     <div className='hero-texto-mov'>
@@ -13,11 +13,11 @@ const Hero = () => {
                         </p>
                     </div>
                     
-                    <button className='hero-btn'>Nosotrxs</button> 
+                    <a className='hero-btn-a' href='#seccion-nosotrxs'><button className='hero-btn'>Nosotrxs</button></a> 
                 </div>
 
                 <div className='hero-imagen'>
-                <img src="../../public/hero-muestra.jpg" alt="hero-muestra" />
+                    <img src="/hero-muestra.jpg" alt="hero-muestra" />
                 </div> 
             </div>
             
